@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10 Puzzle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="title">
+        4つの数字を使って、＋−×÷の計算で10を作ろう！<br>
+        第<span id="qnum"></span>問<br>
+    </div>
+
+    <div id="resultdisp">
+        <div id="resulttxt"></div>
+    </div>
+
+    <div class="question">
+        <div id="num1" class="qbox"></div>
+
+        <div class="obox">
+            <div class="oboxchild">
+                <input type="radio" name="ope1" id="ope1p" value="+" checked>
+                <label for="ope1p">+</label>
+            </div>
+            <div class="oboxchild">
+                <input type="radio" name="ope1" id="ope1s" value="-">
+                <label for="ope1s">−</label>
+            </div>
+            <div class="oboxchild">
+                <input type="radio" name="ope1" id="ope1m" value="*">
+                <label for="ope1m">×</label>
+            </div>
+            <div class="oboxchild">
+                <input type="radio" name="ope1" id="ope1d" value="/">
+                <label for="ope1d">÷</label>
+            </div>
+        </div>
+
+        <div id="num2" class="qbox"></div>
+        
+        <div class="obox">
+            <div class="oboxchild">
+                <input type="radio" name="ope2" id="ope2p" value="+" checked>
+                <label for="ope2p">+</label>
+            </div>
+            <div class="oboxchild">
+                <input type="radio" name="ope2" id="ope2s" value="-">
+                <label for="ope2s">−</label>
+            </div>
+            <div class="oboxchild">
+                <input type="radio" name="ope2" id="ope2m" value="*">
+                <label for="ope2m">×</label>
+            </div>
+            <div class="oboxchild">
+                <input type="radio" name="ope2" id="ope2d" value="/">
+                <label for="ope2d">÷</label>
+            </div>
+        </div>
+
+        <div id="num3" class="qbox"></div>
+        
+        <div class="obox">
+            <div class="oboxchild">
+                <input type="radio" name="ope3" id="ope3p" value="+" checked>
+                <label for="ope3p">+</label>
+            </div>
+            <div class="oboxchild">
+                <input type="radio" name="ope3" id="ope3s" value="-">
+                <label for="ope3s">−</label>
+            </div>
+            <div class="oboxchild">
+                <input type="radio" name="ope3" id="ope3m" value="*">
+                <label for="ope3m">×</label>
+            </div>
+            <div class="oboxchild">
+                <input type="radio" name="ope3" id="ope3d" value="/">
+                <label for="ope3d">÷</label>
+            </div>
+        </div>
+
+        <div id="num4" class="qbox"></div>
+    </div>
+
+    <div class="btnset">
+        <button id="decide" class="btn">決　　定</button>
+        <div class="btnother">
+            <button id="skip" class="btn">スキップ</button>
+            <button id="cheat" class="btn">カンニング</button>
+        </div>
+        <button id="record" class="btn">記録を見る</button>
+    </div>
+
+    <div id="cheatlist"></div>
+
+    <div class="recordlist">
+        <div id="correctcnt" class="correctstr"></div>&nbsp;&nbsp;
+        <div id="incorrectcnt" class="incorrectstr"></div>&nbsp;&nbsp;
+        <div id="skipcnt" class="skipstr"></div>&nbsp;&nbsp;
+        <div id="cheatcnt" class="cheatstr"></div>
+    </div>
+
+    <div id="ctndisp" class="correctstr"></div>
+
+    <div id="recordmodal">
+        <div class="title">
+            ここまでの記録
+        </div>
+        <div id="close">×</div>
+        <div id="recorddisp"></div>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
