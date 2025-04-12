@@ -287,7 +287,7 @@ function setRecordDisp(records) {
 // 文字列置換
 function operatorStringReplace(replaceString) {
     replaceString = replaceString.replace(/\+/g, '＋');
-    replaceString = replaceString.replace(/\-/g, '−');
+    replaceString = replaceString.replace(/\-/g, '－');
     replaceString = replaceString.replace(/\*/g, '×');
     replaceString = replaceString.replace(/\//g, '÷');
     return replaceString;

@@ -38,7 +38,7 @@
         border-radius: 5px;
         width: 80%;
         margin: 8px 5px;
-        padding: 0 20px;
+        padding: 3px 20px;
         cursor: pointer;
     }
 
@@ -163,7 +163,7 @@
         border-radius: 5px;
         width: 75%;
         margin: 8px 5px;
-        padding: 0 20px;
+        padding: 4px 20px;
         cursor: pointer;
     }
 
@@ -264,7 +264,7 @@
         font-size: 10em;
         border: 1px solid #333;
         margin: 0px 10px;
-        padding: 0 10px;
+        padding: 0 10px 20px;
     }
 
     .obox {
@@ -273,7 +273,7 @@
         border-radius: 5px;
         display: flex;
         flex-direction: column;
-        padding: 0 5px;
+        padding: 5px;
     }
 
     .btnother {
@@ -288,7 +288,7 @@
         border-radius: 5px;
         width: 50%;
         margin: 8px 5px;
-        padding: 0 20px;
+        padding: 5px 20px;
         cursor: pointer;
     }
 
